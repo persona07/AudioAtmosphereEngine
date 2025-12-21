@@ -1,0 +1,26 @@
+{
+  "events": {
+    "storm_thunder": {
+      "type": "oneshot",
+      "files": ["sfx/thunder_clap_1.wav", "sfx/thunder_clap_2.wav"],
+      "volume": 1.0,
+      "ducking": 0.5
+    },
+    "heartbeat_low_health": {
+      "type": "loop",
+      "file": "ui/heartbeat_fast.wav",
+      "volume": 0.8
+    },
+    "jumpscare_generic": {
+      "type": "oneshot",
+      "files": ["sfx/horror_sting.wav"],
+      "volume": 1.0,
+      "priority": "high"
+    },
+    "quest_complete": {
+      "type": "ui",
+      "files": ["ui/quest_chime.wav"],
+      "volume": 0.6
+    }
+  }
+}

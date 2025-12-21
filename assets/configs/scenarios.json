@@ -1,0 +1,128 @@
+{
+  "locations": {
+    "expedition_camp": {
+      "safe_zone": {
+        "loops": ["loops/generator_hum.wav", "loops/wind_tarp.wav"],
+        "emitters": [
+          { "file": "sfx/radio_chatter.wav", "mode": "uniform", "min": 5.0, "max": 15.0 },
+          { "file": "sfx/geiger_click_slow.wav", "mode": "uniform", "min": 1.0, "max": 4.0 }
+        ]
+      }
+    },
+    "dark_forest": {
+      "night": {
+        "loops": ["loops/forest_wind_cold.wav", "loops/leaves_rustle_loop.wav"],
+        "emitters": [
+          { "file": "sfx/owl_distant.wav", "mode": "parabola", "min": 15.0, "max": 40.0 },
+          { "file": "sfx/twig_snap.wav", "mode": "linear_rise", "min": 10.0, "max": 30.0 }
+        ]
+      }
+    },
+    "poltergeist_house": {
+      "ground_floor": {
+        "loops": ["loops/house_creaks_loop.wav", "loops/rain_on_window.wav"],
+        "emitters": [
+          { "file": "sfx/footstep_upstairs.wav", "mode": "linear_rise", "min": 20.0, "max": 60.0 },
+          { "file": "sfx/door_slam.wav", "mode": "linear_rise", "min": 40.0, "max": 90.0 },
+          { "file": "sfx/whisper.wav", "mode": "parabola", "min": 10.0, "max": 25.0 }
+        ]
+      }
+    },
+    "underground_tunnel": {
+      "wet": {
+        "loops": ["loops/water_drip_echo_loop.wav", "loops/low_rumble.wav"],
+        "emitters": [
+          { "file": "sfx/rats_squeak.wav", "mode": "linear_fall", "min": 5.0, "max": 20.0 },
+          { "file": "sfx/stone_fall.wav", "mode": "uniform", "min": 15.0, "max": 50.0 }
+        ]
+      }
+    },
+    "anomaly_zone_33": {
+      "active": {
+        "loops": ["loops/electromagnetic_hum.wav", "loops/static_noise.wav"],
+        "emitters": [
+          { "file": "sfx/spark_zap.wav", "mode": "uniform", "min": 0.5, "max": 2.0 },
+          { "file": "sfx/distortion_burst.wav", "mode": "parabola", "min": 5.0, "max": 12.0 }
+        ]
+      }
+    },
+    "abandoned_bunker": {
+      "silence": {
+        "loops": ["loops/ventilation_broken.wav"],
+        "emitters": [
+          { "file": "sfx/metal_stress.wav", "mode": "linear_rise", "min": 30.0, "max": 60.0 },
+          { "file": "sfx/pipe_clang.wav", "mode": "uniform", "min": 10.0, "max": 40.0 }
+        ]
+      }
+    },
+    "swamp_fog": {
+      "morning": {
+        "loops": ["loops/swamp_bubbles.wav", "loops/insects_buzz.wav"],
+        "emitters": [
+          { "file": "sfx/frog.wav", "mode": "parabola", "min": 2.0, "max": 8.0 },
+          { "file": "sfx/water_splash.wav", "mode": "linear_rise", "min": 10.0, "max": 30.0 }
+        ]
+      }
+    },
+    "the_void": {
+      "endgame": {
+        "loops": ["loops/void_drone.wav", "loops/heartbeat_slow.wav"],
+        "emitters": [
+          { "file": "sfx/scary_scream_distant.wav", "mode": "linear_rise", "min": 10.0, "max": 20.0 },
+          { "file": "sfx/whispering_voices.wav", "mode": "linear_fall", "min": 5.0, "max": 15.0 }
+        ]
+      }
+    },
+    "sunlit_meadow": {
+      "noon": {
+        "loops": ["loops/gentle_stream.wav", "loops/summer_breeze.wav"],
+        "emitters": [
+          { "file": "sfx/happy_bird.wav", "mode": "uniform", "min": 1.5, "max": 4.0 },
+          { "file": "sfx/bee_buzz_flyby.wav", "mode": "parabola", "min": 10.0, "max": 25.0 }
+        ]
+      }
+    },
+    "crystal_sanctuary": {
+      "magic": {
+        "loops": ["loops/ethereal_pad.wav", "loops/wind_chimes_soft.wav"],
+        "emitters": [
+          { "file": "sfx/magic_sparkle.wav", "mode": "linear_fall", "min": 4.0, "max": 8.0 },
+          { "file": "sfx/healing_hum_pulse.wav", "mode": "parabola", "min": 12.0, "max": 20.0 }
+        ]
+      }
+    },
+    "cyber_cafe_safe": {
+      "lofi": {
+        "loops": ["loops/lofi_beat_muffled.wav", "loops/coffee_machine_hum.wav"],
+        "emitters": [
+          { "file": "sfx/retro_game_coin.wav", "mode": "uniform", "min": 8.0, "max": 15.0 },
+          { "file": "sfx/door_bell_shop.wav", "mode": "linear_rise", "min": 20.0, "max": 60.0 }
+        ]
+      }
+    },
+    "tropical_island": {
+      "vacation": {
+        "loops": ["loops/ocean_waves_calm.wav", "loops/palm_leaves.wav"],
+        "emitters": [
+          { "file": "sfx/seagull.wav", "mode": "parabola", "min": 5.0, "max": 15.0 },
+          { "file": "sfx/ukulele_strum.wav", "mode": "uniform", "min": 10.0, "max": 30.0 }
+        ]
+      }
+    }
+  },
+  "loops": ["loops/very_loud_wind.wav"],
+  "emitters": [
+    {
+      "file": "sfx/quiet_bird.wav",
+      "mode": "uniform",
+      "min": 2.0, "max": 5.0,
+      "volume_mult": 1.5
+    },
+    {
+      "file": "sfx/loud_thunder.wav",
+      "mode": "linear_rise",
+      "min": 10.0, "max": 20.0,
+      "volume_mult": 1.7
+    }
+    ]
+}
