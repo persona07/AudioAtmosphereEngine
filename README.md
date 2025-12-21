@@ -115,3 +115,12 @@ Project/
 ├── main.py                  # Консольная версия
 ├── requirements.txt         # Список зависимостей
 └── README.md                # Документация
+```
+
+System Architecture
+
+<img width="3511" height="4349" alt="System Architecture1" src="https://github.com/user-attachments/assets/7968b439-7a91-4393-9099-01a99d0f8e8a" />
+<img width="7511" height="8205" alt="System Architecture2" src="https://github.com/user-attachments/assets/26967700-a302-4ab5-9e3b-055dad8446c1" />
+
+
+
